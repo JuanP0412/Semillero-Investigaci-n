@@ -58,6 +58,7 @@ btnTop.addEventListener('click', () => {
 AOS.init({
     duration: 800,  // duración de la animación en ms
     once: false,     // animar cada vez que se hace scroll
+    mirror: false      // no animar elementos fuera de la pantalla
 });
 
 new Typed('#typewriter', {
